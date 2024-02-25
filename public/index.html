@@ -22,6 +22,22 @@
       <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
       </div>
     </div>
+
+    <h1>Image Summarizer App</h1>
+    <p> Welcome to the AI Image Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide a image.</p>
+    <p> Simply paste your text into the text area below and click the "Submit" button. </p>
+
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize_img" name="text_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
+        <button id="submit-button-img" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+        <img src="https://picsum.photos/200" name="summarized_img" id="summarized_img" alt="summarized image" class="summarized_img">
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
